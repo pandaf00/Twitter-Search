@@ -33,8 +33,8 @@ def Search():
 def save_Results():
     # define which results need to be saved in our .csv
     authors     = []
-    timestamp   = []
-    posts       = []
+    timestamps  = []
+    tweets      = []
     hashtags    = []
 
 Search()
