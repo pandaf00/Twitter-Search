@@ -1,6 +1,12 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
+"""
+Author: pandaf00
+Last Modified: September 2014
+Twitter: @pandaf00
+"""
+
 import urllib2
 import sys
 from bs4 import BeautifulSoup
