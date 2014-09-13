@@ -18,7 +18,9 @@ def Search():
     hashtag = sys.argv[1]
     # twitter url to grep results from
     print "Loading results please wait..."
-    os.system("cls")
+    """gonna fix this asap to do auto select os.platform"""
+    os.system("clear") # comment this if you are on windows
+    #os.system("cls") uncomment this if you are on windows
     time.sleep(2.0)
     page = urllib2.urlopen("http://www.twitter.com/hashtag/" + hashtag)
     soup = BeautifulSoup(page)
