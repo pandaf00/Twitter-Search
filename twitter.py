@@ -31,7 +31,7 @@ def Search():
     print tweet_timestamp + tweet
 
 def save_Results():
-    # define which results need to be saved in our .csv
+    # define what goes in our .csv
     authors     = []
     timestamps  = []
     tweets      = []
